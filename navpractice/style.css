@@ -1,0 +1,65 @@
+
+body{
+  margin:auto;
+  text-align:center;
+
+}
+.outer{
+   text-align: center;
+   padding:20px;
+}
+.page{
+   width:1000px;
+   display: inline-block;
+   text-align:center;
+   padding:10px;
+   background-color: white;
+}
+a{
+  color:black;
+  font-size:18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:50px;
+}
+
+.words{
+  padding-top:30px;
+  padding-bottom:50px;
+  font-size:16px;
+}
+
+a:hover {
+  color:#c83400;
+ }
+
+a:active {
+  color:#red;
+}
+
+.nav{
+      background-color:#f3dfbc;
+      text-align:center;
+      margin:auto;
+      font-family:sans-serif;
+    }
+
+  .navhere{
+    color:#c83400;
+  }
+
+.headline{
+  font-family: 'Rock Salt', cursive;
+  font-size:45px;
+  color:#c83400;
+  font-style:italic;
+  text-align:center;
+  padding-top:10px;
+}
+
+.mainpic{
+  width:300px;
+  margin:center;
+  padding-top:40px;
+  padding-bottom:40px;
+}
