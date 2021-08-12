@@ -1,0 +1,90 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: #000;
+}
+
+.outer{
+  text-align: center;
+}
+
+.navbar{
+	position:sticky;
+	top:0;
+	width:100%;
+	height:100px;
+	background-color:#441500;
+	z-index:100;
+	opacity:.8;
+}
+
+.mainlogo{
+	width:9%;
+	padding-top:10px;
+	image:center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color:white;
+  max-width:800px;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  text-align: center;
+  height:500px;
+	opacity:.54;
+	font-size:72px;
+	font-family:sans-serif;
+	color:#441500;
+}
+
+.tiletop{
+	background-image: url("img/burrito.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:500px;
+}
+
+.tiletop1{
+	background-image: url("img/aaron.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:500px;
+}
+
+.tiletop2{
+	background-image: url("img/lebron.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:500px;
+}
+
+.tiletop3{
+	background-image: url("img/mahomes.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:500px;
+}
+
+.tiletop4{
+	background-image: url("img/lillard.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:500px;
+}
+
+
+.tiletop5{
+	background-image: url("img/luka.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:500px;
+}
