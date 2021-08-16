@@ -1,0 +1,176 @@
+
+.body{
+  background-color: #441500;
+  margin:0;
+  padding:0;
+  text-align:center;
+
+}
+.outer{
+   text-align: center;
+   padding:20px;
+   font-family:sans-serif;
+   font-weight:bold;
+}
+.page{
+   position:relative;
+   background-color:#f3dfbc;
+   max-width:1200px;
+   width:100%;
+   display: inline-block;
+   text-align:center;
+   padding-top:20px;
+   height:1200px;
+}
+a{
+  color:#441500;
+  font-size:20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:140px;
+}
+
+.words{
+  color:#441500;
+  padding-top:30px;
+  padding-bottom:50px;
+  font-size:20px;
+}
+
+a:hover {
+  color:#ad2118;
+ }
+
+a:active {
+  color:#441500;
+}
+
+  .navhere{
+    color:#c83400;
+  }
+
+.topofpage{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  align-items:center;
+  justify-content:flex-start;
+}
+
+.navbar{
+  flex-grow:1;
+  /*display:flex;*/
+  flex-direction:row;
+  flex-wrap:nowrap;
+  align-items:center;
+  justify-content:flex-start;
+  text-align:right;
+  padding-top:20px;
+  padding-left:200px;
+}
+
+.logo{
+  max-width:300px;
+  padding-top:20px;
+}
+
+.logoimg{
+  width:100%;
+}
+
+.search{
+  align-content:flex-end;
+  margin-left:auto;
+  max-width:72px;
+  margin-right:54px;
+  padding-top:20px;
+}
+
+.searchimg{
+  width:80%;
+}
+
+.mainpic{
+  max-width:900px;
+  width:100%;
+  margin:center;
+  padding-top:80px;
+}
+
+#menu img{
+  width:54px;
+  padding:20px;
+  padding-left:20px;
+  cursor:pointer;
+}
+
+#menuoverlay{
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-color:#ad2118;
+  width:100%;
+  height:98vh;
+  display:none;
+  text-align:center;
+  color:#f3dfbc;
+}
+
+#close{
+  position:absolute;
+  top:10px;
+  right:30px;
+  font-size:50px;
+  cursor:pointer;
+}
+
+.innermenu{
+  margin-top:54px;
+}
+
+.innermenu div{
+  padding-bottom:50px;
+}
+
+.menuitems{
+
+}
+
+@media screen and (max-width:800px){
+  .body{
+    background-color:grey;
+  }
+  .page{
+    max-width:480px;
+  }
+  #menu{
+    display:inline-block;
+  }
+  .navbar{
+    display:none;
+  }
+  .search{
+    display:none;
+  }
+}
+
+@media screen and (min-width:800px) and (max-width:1100px){
+  .body{
+    background-color:#ad2118;
+  }
+  .page{
+    max-width:800px;
+  }
+  #menu{
+    display:none;
+  }
+  .navbar{
+    display:flex;
+  }
+}
+
+@media screen and (min-width:800px){
+  #menu{
+    display:none;
+  }
+}
