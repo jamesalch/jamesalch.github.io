@@ -75,8 +75,6 @@ a:active {
 	font-size:28px;
 	text-align: center;
   color:#441500;
-  align-items:center;
-  padding-left:300px;
 }
 .hero_text_headline{
 	font-weight: bold;
@@ -99,6 +97,7 @@ a:active {
   margin-bottom:20px;
   text-align: left;
   font-size:20px;
+  padding-left:40px;
 
 }
 
@@ -111,8 +110,9 @@ a:active {
 }
 
 .side_bar img{
-	float: right;
+	float: left;
   margin-left:20px;
+  margin-right:20px;
 }
 
 /* [class^="side_bar"] element that starts with */
