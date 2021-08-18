@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions</title>
+
+
+
+   <style>
+
+
+   	body{
+   		font-family: sans-serif;
+   		font-size:60px;
+   		color:#FFF;
+   	}
+
+   	.cardholder{
+        text-align: center;
+
+   	}
+
+    .card{
+    	position: relative;
+       background-color:grey;
+       display: inline-block;
+    }
+
+    .card img{
+      width:900px;
+      height:auto;
+    }
+
+
+    .center {
+     text-align: center;
+    }
+
+
+    .card_overlay{
+    	position:absolute;
+    	background-color: gray;
+    	width:900px;
+    	height:100%;
+    	transition: 1s ease;
+    }
+
+
+    .card:hover .card_overlay{
+    	opacity: .1;
+    }
+
+    .card_text{
+    	margin:0;
+    }
+
+   </style>
+
+</head>
+<body>
+
+
+
+
+	<div class="cardholder">
+       <div class="card">
+       	  <div class="card_overlay">
+						<p class="center">Where?</p></div>
+					<div class="answer">
+							<p> New York City </p> </div>
+       	  <img src="img/NYC.jpg" alt="NYC">
+       </div>
+	</div>
+
+</body>
+</html>
