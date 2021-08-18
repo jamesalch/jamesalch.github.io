@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+      	-webkit-filter: blur(100px) grayscale(100%);
+      	filter: blur(100px) grayscale(100%);
+				width:1200px;
+     }
+
+    .my_filter:hover{
+      animation: 3s myfilteranimation forwards;
+    }
+
+     @keyframes myfilteranimation{
+	      100%{
+	       -webkit-filter: blur:(0px) grayscale(0);
+	        filter: blur(0px) grayscale(0);
+	       }
+     }
+
+	</style>
+
+
+
+</head>
+<body>
+
+<img class="my_filter" src="img/beach.jpg" alt="beach">
+
+</body>
+</html>
